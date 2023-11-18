@@ -8,7 +8,7 @@
 --%>
 <sql:setDataSource
         var="db"
-        dataSource="jdbc:mysql://localhost:3306/giorgi_odishvili?allowPublicKeyRetrieval=true&useSSL=false&user=root&password=password"
+        url="jdbc:mysql://localhost:3306/giorgi_odishvili?allowPublicKeyRetrieval=true&useSSL=false"
         driver="com.mysql.jdbc.Driver"
         user="root"
         password="password"
