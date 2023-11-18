@@ -11,3 +11,6 @@ run scripts in \
 `src/main/resources/init.sql`
 
 `start an application`
+
+if `no suitable driver` exception is thrown\
+place `mysql-connector-java.jar` in `tomcat/libs` directory
